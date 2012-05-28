@@ -42,6 +42,11 @@ GEM
     builder (3.0.0)
     bundler_local_development (0.3.0)
       bundler
+    cloudfuji (0.0.43)
+      highline (>= 1.6.1)
+      json (>= 1.4.6)
+      orm_adapter (~> 0.0.3)
+      rest-client (>= 1.6.1)
     columnize (0.3.6)
     crack (0.3.1)
     css_parser (1.2.6)
@@ -59,10 +64,16 @@ GEM
       bcrypt-ruby (~> 3.0)
       orm_adapter (~> 0.0.3)
       warden (~> 1.1)
+    devise_cloudfuji_authenticatable (1.0.5)
+      devise (= 1.5.3)
+      rubycas-client (>= 2.2.1)
     diff-lcs (1.1.3)
     email_spec (1.2.1)
       mail (~> 2.2)
       rspec (~> 2.0)
+    errbit_cloudfuji (0.1.0)
+      cloudfuji (>= 0.0.42)
+      devise_cloudfuji_authenticatable
     erubis (2.7.0)
     execjs (1.4.0)
       multi_json (~> 1.0)
@@ -200,6 +211,8 @@ GEM
       linecache (>= 0.3)
     ruby-fogbugz (0.1.1)
       crack
+    rubycas-client (2.3.8)
+      activesupport
     sprockets (2.1.3)
       hike (~> 1.2)
       rack (~> 1.0)
@@ -247,6 +260,7 @@ DEPENDENCIES
   debugger
   devise (~> 1.5.3)
   email_spec
+  errbit_cloudfuji
   execjs
   fabrication (~> 1.3.0)
   haml
