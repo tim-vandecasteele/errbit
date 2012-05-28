@@ -40,6 +40,8 @@ GEM
     bson (1.3.1)
     bson_ext (1.3.1)
     builder (3.0.0)
+    bundler_local_development (0.3.0)
+      bundler
     columnize (0.3.6)
     crack (0.3.1)
     css_parser (1.2.6)
@@ -240,6 +242,7 @@ DEPENDENCIES
   actionmailer_inline_css (~> 1.3.0)
   bson (= 1.3.1)
   bson_ext (= 1.3.1)
+  bundler_local_development
   database_cleaner (~> 0.6.0)
   debugger
   devise (~> 1.5.3)

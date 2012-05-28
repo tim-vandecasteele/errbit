@@ -1,5 +1,13 @@
 source 'http://rubygems.org'
 
+# Allows easy switching between locally developed gems, and gems installed from rubygems.org
+# See README for more info at: https://github.com/ndbroadbent/bundler_local_development
+gem 'bundler_local_development', :group => :development, :require => false
+begin
+  require 'bundler_local_development'
+rescue LoadError
+end
+
 gem 'rails', '~> 3.2.0'
 
 gem 'nokogiri'
