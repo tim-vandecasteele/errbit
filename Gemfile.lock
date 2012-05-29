@@ -71,7 +71,7 @@ GEM
     email_spec (1.2.1)
       mail (~> 2.2)
       rspec (~> 2.0)
-    errbit_cloudfuji (0.1.3)
+    errbit_cloudfuji (0.1.4)
       cloudfuji (>= 0.0.42)
       devise_cloudfuji_authenticatable
       uuid
@@ -257,7 +257,7 @@ DEPENDENCIES
   debugger
   devise (~> 1.5.3)
   email_spec
-  errbit_cloudfuji (>= 0.1.3)
+  errbit_cloudfuji (>= 0.1.4)
   fabrication (~> 1.3.0)
   haml
   hoptoad_notifier (~> 2.4)
