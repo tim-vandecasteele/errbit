@@ -42,7 +42,7 @@ GEM
     builder (3.0.0)
     bundler_local_development (0.3.0)
       bundler
-    cloudfuji (0.0.43)
+    cloudfuji (0.0.44)
       highline (>= 1.6.1)
       json (>= 1.4.6)
       orm_adapter (~> 0.0.3)
@@ -218,7 +218,7 @@ GEM
       rack (~> 1.0)
       tilt (~> 1.1, != 1.3.0)
     systemu (2.2.0)
-    tane (0.0.4)
+    tane (0.0.5)
       awesome_print
       erubis
       highline
@@ -281,7 +281,7 @@ DEPENDENCIES
   rspec-rails (~> 2.6)
   ruby-debug
   ruby-fogbugz
-  tane
+  tane (>= 0.0.5)
   unicorn
   useragent (~> 0.3.1)
   webmock
